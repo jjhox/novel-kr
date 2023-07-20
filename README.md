@@ -1,6 +1,6 @@
 <a href="https://novel.sh">
   <img alt="Novel is a Notion-style WYSIWYG editor with AI-powered autocompletions." src="/app/opengraph-image.png">
-  <h1 align="center">Novel</h1>
+  <h1 align="center">Novel KR</h1>
 </a>
 
 <p align="center">
@@ -12,7 +12,7 @@
   <a href="https://github.com/steven-tey/novel/blob/main/LICENSE">
     <img src="https://img.shields.io/github/license/steven-tey/novel?label=license&logo=github&color=f80&logoColor=fff" alt="License" />
   </a>
-  <a href="https://github.com/steven-tey/novel"><img src="https://img.shields.io/github/stars/steven-tey/novel?style=social" alt="Novel.sh's GitHub repo"></a>
+    <a href="https://github.com/jjhox/novel-kr"><img src="https://img.shields.io/github/stars/jjhox/novel-kr?style=social" alt="Novel KR's GitHub repo"></a>
 </p>
 
 <p align="center">
@@ -27,9 +27,9 @@
 
 ## 소개
 
-[Novel](https://novel.sh/) is a Notion-style WYSIWYG editor with AI-powered autocompletions.
+[Novel](https://novel.sh/)은 AI로 구동되는 자동완성 기능을 갖춘 개념형 위지위그 에디터입니다.
 
-Here's a quick 30-second demo:
+다음은 30초 분량의 간단한 데모입니다:
 
 https://github.com/steven-tey/novel/assets/28986134/2099877f-4f2b-4b1c-8782-5d803d63be5c
 
@@ -37,37 +37,38 @@ https://github.com/steven-tey/novel/assets/28986134/2099877f-4f2b-4b1c-8782-5d80
 
 ## 자체 배포
 
-You can deploy your own version of Novel to Vercel with one click:
+클릭 한 번으로 Vercel에 자체 버전의 Novel을 배포할 수 있습니다:
 
-[![Deploy with Vercel](https://vercel.com/button)](https://stey.me/novel-deploy)
+[![Vercel로 배포](https://vercel.com/button)](https://stey.me/novel-deploy)
 
 ## 로컬 설정
 
-To set up Novel locally, you'll need to clone the repository and set up the following environment variables:
+Novel을 로컬로 설정하려면 리포지토리를 복제하고 다음 환경 변수를 설정해야 합니다:
 
-- `OPENAI_API_KEY` – your OpenAI API key (you can get one [here](https://platform.openai.com/account/api-keys))
-- `BLOB_READ_WRITE_TOKEN` – your Vercel Blob read/write token (currently [still in beta](https://vercel.com/docs/storage/vercel-blob/quickstart#quickstart), but feel free to [DM me on Twitter](https://twitter.com/steventey) for access)
+- `OPENAI_API_KEY` – OpenAI API 키 ([이곳](https://platform.openai.com/account/api-keys)에서 얻을 수 있음)
+- `BLOB_READ_WRITE_TOKEN` – Vercel Blob 읽기/쓰기 토큰 (현재 [베타 중](https://vercel.com/docs/storage/vercel-blob/quickstart#quickstart)이지만 [Twitter DM](https://twitter.com/steventey)주시면 액세스할 수 있습니다.)
 
-If you've deployed this to Vercel, you can also use [`vc env pull`](https://vercel.com/docs/cli/env#exporting-development-environment-variables) to pull the environment variables from your Vercel project.
+
+Vercel에 배포한 경우 [`vc env pull`](https://vercel.com/docs/cli/env#exporting-development-environment-variables)을 사용하여 Vercel 프로젝트에서 환경 변수를 가져올 수도 있습니다.
 
 ## 기술 스택
 
-Novel is built on the following stack:
+Novel은 다음과 같은 스택을 기반으로 합니다:
 
-- [Next.js](https://nextjs.org/) – framework
-- [Tiptap](https://tiptap.dev/) – text editor
-- [OpenAI](https://openai.com/) - AI completions
-- [Vercel AI SDK](https://sdk.vercel.ai/docs) – AI library
-- [Vercel](https://vercel.com) – deployments
-- [TailwindCSS](https://tailwindcss.com/) – styles
-- [Cal Sans](https://github.com/calcom/font) – font
+- [Next.js](https://nextjs.org/) – 프레임워크
+- [Tiptap](https://tiptap.dev/) – 텍스트 편집기
+- [OpenAI](https://openai.com/) - AI 완성
+- [Vercel AI SDK](https://sdk.vercel.ai/docs) – AI 라이브러리
+- [Vercel](https://vercel.com) – 배포
+- [TailwindCSS](https://tailwindcss.com/) – 스타일
+- [Cal Sans](https://github.com/calcom/font) – 폰트
 
 ## 기여
 
-Here's how you can contribute:
+기여할 수 있는 방법은 다음과 같습니다:
 
-- [Open an issue](https://github.com/steven-tey/novel/issues) if you believe you've encountered a bug.
-- Make a [pull request](https://github.com/steven-tey/novel/pull) to add new features/make quality-of-life improvements/fix bugs.
+- [이슈 열기](https://github.com/steven-tey/novel/issues) 버그가 발생했다고 생각되는 경우.
+- [수정 요청](https://github.com/steven-tey/novel/pull)에서 새로운 기능을 추가하거나 개선하거나 버그를 수정할 수 있습니다.
 
 ## 저자
 
@@ -76,4 +77,4 @@ Here's how you can contribute:
 
 ## 라이센스
 
-Licensed under the [MIT license](https://github.com/steven-tey/novel/blob/main/LICENSE.md).
+[MIT license](https://github.com/steven-tey/novel/blob/main/LICENSE.md)가 적용됨.
