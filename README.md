@@ -4,7 +4,7 @@
 </a>
 
 <p align="center">
-  An open-source Notion-style WYSIWYG editor with AI-powered autocompletions. 
+  AI 기반 자동 완성 기능을 갖춘 오픈 소스 개념 스타일 위지위그 편집기의 한국어 버전입니다. 
 </p>
 
 <p align="center">
@@ -16,16 +16,16 @@
 </p>
 
 <p align="center">
-  <a href="#introduction"><strong>Introduction</strong></a> ·
-  <a href="#deploy-your-own"><strong>Deploy Your Own</strong></a> ·
-  <a href="#setting-up-locally"><strong>Setting Up Locally</strong></a> ·
-  <a href="#tech-stack"><strong>Tech Stack</strong></a> ·
-  <a href="#contributing"><strong>Contributing</strong></a> ·
-  <a href="#license"><strong>License</strong></a>
+  <a href="#소개"><strong>소개</strong></a> ·
+  <a href="#자체-배포"><strong>자체 배포</strong></a> ·
+  <a href="#로컬-설정"><strong>로컬 설정</strong></a> ·
+  <a href="#기술-스택"><strong>기술 스택</strong></a> ·
+  <a href="#기여"><strong>기여</strong></a> ·
+  <a href="#라이센스"><strong>라이센스</strong></a>
 </p>
 <br/>
 
-## Introduction
+## 소개
 
 [Novel](https://novel.sh/) is a Notion-style WYSIWYG editor with AI-powered autocompletions.
 
@@ -35,13 +35,13 @@ https://github.com/steven-tey/novel/assets/28986134/2099877f-4f2b-4b1c-8782-5d80
 
 <br />
 
-## Deploy Your Own
+## 자체 배포
 
 You can deploy your own version of Novel to Vercel with one click:
 
 [![Deploy with Vercel](https://vercel.com/button)](https://stey.me/novel-deploy)
 
-## Setting Up Locally
+## 로컬 설정
 
 To set up Novel locally, you'll need to clone the repository and set up the following environment variables:
 
@@ -50,7 +50,7 @@ To set up Novel locally, you'll need to clone the repository and set up the foll
 
 If you've deployed this to Vercel, you can also use [`vc env pull`](https://vercel.com/docs/cli/env#exporting-development-environment-variables) to pull the environment variables from your Vercel project.
 
-## Tech Stack
+## 기술 스택
 
 Novel is built on the following stack:
 
@@ -62,17 +62,18 @@ Novel is built on the following stack:
 - [TailwindCSS](https://tailwindcss.com/) – styles
 - [Cal Sans](https://github.com/calcom/font) – font
 
-## Contributing
+## 기여
 
 Here's how you can contribute:
 
 - [Open an issue](https://github.com/steven-tey/novel/issues) if you believe you've encountered a bug.
 - Make a [pull request](https://github.com/steven-tey/novel/pull) to add new features/make quality-of-life improvements/fix bugs.
 
-## Author
+## 저자
 
 - Steven Tey ([@steventey](https://twitter.com/steventey))
+- Junha Jang ([@jjhox](https://junha.me))
 
-## License
+## 라이센스
 
 Licensed under the [MIT license](https://github.com/steven-tey/novel/blob/main/LICENSE.md).
