@@ -39,7 +39,7 @@ https://github.com/steven-tey/novel/assets/28986134/2099877f-4f2b-4b1c-8782-5d80
 
 클릭 한 번으로 Vercel에 자체 버전의 Novel을 배포할 수 있습니다:
 
-[![Vercel로 배포](https://vercel.com/button)](https://stey.me/novel-deploy)
+이 코드를 Fork 하신 후 Vercel에서 Fork된 프로젝트 선택 후 OpenAI API 키만 입력하시면 배포됩니다.
 
 ## 로컬 설정
 

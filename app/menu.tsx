@@ -13,29 +13,29 @@ import { useTheme } from "next-themes";
 
 const fonts = [
   {
-    font: "Default",
+    font: "기본",
     icon: <FontDefault className="h-4 w-4" />,
   },
   {
-    font: "Serif",
+    font: "셰리프",
     icon: <FontSerif className="h-4 w-4" />,
   },
   {
-    font: "Mono",
+    font: "모노",
     icon: <FontMono className="h-4 w-4" />,
   }
 ];
 const appearances = [
   {
-    theme: "System",
+    theme: "시스템",
     icon: <Monitor className="h-4 w-4" />,
   },
   {
-    theme: "Light",
+    theme: "라이트",
     icon: <SunDim className="h-4 w-4" />,
   },
   {
-    theme: "Dark",
+    theme: "다크",
     icon: <Moon className="h-4 w-4" />,
   },
 ];
@@ -51,7 +51,7 @@ export default function Menu() {
       </PopoverTrigger>
       <PopoverContent className="w-52 divide-y divide-stone-200" align="end">
         <div className="p-2">
-          <p className="p-2 text-xs font-medium text-stone-500">Font</p>
+          <p className="p-2 text-xs font-medium text-stone-500">폰트</p>
           {fonts.map(({font, icon}) => (
             <button
               key={font}
@@ -69,7 +69,7 @@ export default function Menu() {
           ))}
         </div>
         <div className="p-2">
-          <p className="p-2 text-xs font-medium text-stone-500">Appearance</p>
+          <p className="p-2 text-xs font-medium text-stone-500">디자인</p>
           {appearances.map(({ theme, icon }) => (
             <button
               key={theme}

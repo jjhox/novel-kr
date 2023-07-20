@@ -18,17 +18,17 @@ export default function Editor() {
     "content",
     DEFAULT_EDITOR_CONTENT,
   );
-  const [saveStatus, setSaveStatus] = useState("Saved");
+  const [saveStatus, setSaveStatus] = useState("저장됨");
 
   const [hydrated, setHydrated] = useState(false);
 
   const debouncedUpdates = useDebouncedCallback(async ({ editor }) => {
     const json = editor.getJSON();
-    setSaveStatus("Saving...");
+    setSaveStatus("저장 중...");
     setContent(json);
     // Simulate a delay in saving.
     setTimeout(() => {
-      setSaveStatus("Saved");
+      setSaveStatus("저장됨");
     }, 500);
   }, 750);
 
@@ -36,7 +36,7 @@ export default function Editor() {
     extensions: TiptapExtensions,
     editorProps: TiptapEditorProps,
     onUpdate: (e) => {
-      setSaveStatus("Unsaved");
+      setSaveStatus("저장되지 않음");
       const selection = e.editor.state.selection;
       const lastTwo = getPrevText(e.editor, {
         chars: 2,

@@ -106,7 +106,7 @@ export const TiptapExtensions = [
       if (node.type.name === "heading") {
         return `Heading ${node.attrs.level}`;
       }
-      return "Press '/' for commands, or '++' for AI autocomplete...";
+      return "명령은 '/'을 누르고, AI 자동 완성은 '+'를 누르십시오...";
     },
     includeChildren: true,
   }),
