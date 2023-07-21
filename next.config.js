@@ -9,12 +9,12 @@ const nextConfig = {
       },
       {
         source: "/feedback",
-        destination: "hhttps://github.com/jjhox/novel-kr/issues",
+        destination: "https://github.com/jjhox/novel-kr/issues",
         permanent: true,
       },
       {
         source: "/translation",
-        destination: "mailto:novel-kr@sliso.io",
+        destination: "https://www.sliso.io/support",
         permanent: true,
       },
       {
