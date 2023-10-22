@@ -44,7 +44,7 @@ const DEFAULT_EDITOR_CONTENT = {
           ],
           text: "Vercel AI SDK",
         },
-        { type: "text", text: "로 빌드됨." },
+        { type: "text", text: "로 빌드되었습니다." },
       ],
     },
     {
