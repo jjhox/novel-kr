@@ -121,7 +121,7 @@ const DEFAULT_EDITOR_CONTENT = {
             {
               type: "paragraph",
               content: [
-                { type: "text", text: "다음을 확인해보세요 " },
+                { type: "text", text: "영상을 확인해보세요 " },
                 {
                   type: "text",
                   marks: [
@@ -135,7 +135,7 @@ const DEFAULT_EDITOR_CONTENT = {
                       },
                     },
                   ],
-                  text: "출시 영상",
+                  text: "클릭",
                 },
               ],
             },
@@ -148,7 +148,7 @@ const DEFAULT_EDITOR_CONTENT = {
             {
               type: "paragraph",
               content: [
-                { type: "text", text: "다음에서 별을 줄 수 있어요" },
+                { type: "text", text: "Github에서 별을 줄 수 있어요 " },
                 {
                   type: "text",
                   marks: [
@@ -162,7 +162,7 @@ const DEFAULT_EDITOR_CONTENT = {
                       },
                     },
                   ],
-                  text: "GitHub",
+                  text: "클릭",
                 },
               ],
             },
@@ -188,9 +188,9 @@ const DEFAULT_EDITOR_CONTENT = {
                       },
                     },
                   ],
-                  text: "당신의 것으로 배포헤보세요",
+                  text: "Vercel",
                 },
-                { type: "text", text: " Vercel 사용" },
+                { type: "text", text: "을 사용해서 배포해보세요" },
               ],
             },
           ],
